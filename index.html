@@ -136,24 +136,25 @@
 
     <section class="contact" id="contact">
         <h2 class="heading">Benimle İletişime <span>Geç</span></h2>
-
-        <form action="https://formsubmit.co/el/sutoga" method="POST">
+    
+        <form action="https://formsubmit.co/252f92d7ac2f3fc981bf066b35838768" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Ad ve Soyad">
-                <input type="email" placeholder="Email">
+                <input type="text" name="name" placeholder="Ad ve Soyad" required>
+                <input type="email" name="email" placeholder="Email" required>
             </div>
-
+    
             <div class="input-box">
-                <input type="number" placeholder="Telefon No">
-                <input type="text" placeholder="Email Konusu">
+                <input type="number" name="phone" placeholder="Telefon No">
+                <input type="text" name="subject" placeholder="Email Konusu" required>
             </div>
-
+    
             <div>
-                <textarea name="" id="" cols="100" rows="10" placeholder="Mesajınız"></textarea>
-                <input type="submit" value="Mesajı Gönder" class="btn">
+                <textarea name="message" cols="100" rows="10" placeholder="Mesajınız" required></textarea>
+                <button class="btn" type="submit">Mesajı Gönder</button>
             </div>
         </form>
     </section>
+    
 
     <footer class="footer">
         <div class="footer-text">
